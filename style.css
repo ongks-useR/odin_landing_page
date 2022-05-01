@@ -1,0 +1,203 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.header,
+.about,
+.inspiring-quotes,
+.center-box,
+footer {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.top,
+.footer {
+    background-color: #1F2937;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+}
+
+.center-box {
+    background-color: #3882F6;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.nav-bar {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.primary-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    padding: 10px 0;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 10px 0;
+}
+
+.left-buttons {
+    padding: 10px 0;
+    display: flex;
+    gap: 20px;
+}
+
+.left-buttons button {
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    border: 1px solid #3882F6;
+}
+
+.left-buttons a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    padding: 50px 0;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-context {
+    font-size: 26px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.context-desc {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.inspiring-quotes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-box {
+    width: 600px;
+    padding: 30px 0;
+}
+
+figure {
+    margin: 20px 0;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    font-weight: 500;
+}
+
+.call-to-action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box {
+    width: 800px;
+    height: 150px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+
+#focus {
+    font-size: 26px;
+}
+
+.center-box button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#take-action {
+    text-decoration: none;
+    color: white;
+}
+
+footer {
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
